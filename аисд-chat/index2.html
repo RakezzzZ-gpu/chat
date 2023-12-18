@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="shortcut icon" href="/img/Leonardo_Signature_logoimprint_3.jpg" type="image/png">
+   <!-- Bootstrap CSS (Cloudflare CDN) -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+   integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous">
+<!-- jQuery (Cloudflare CDN) -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+   integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<!-- Bootstrap Bundle JS (Cloudflare CDN) -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"
+   ntegrity="sha512-wV7Yj1alIZDqZFCUQJy85VN+qvEIly93fIQAN7iqDFCPEucLCeNFz4r35FCo9s6WrpdDQPi80xbljXB8Bjtvcg==" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+
+
+ 
+ 
+
+
+
+<body>
+ 
+  <div class="loader"></div>
+  
+ 
+ 
+
+ 
+<!-- общий -->
+
+<div class=" public col-4">
+ 
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i class="fas fa-comment-alt"></i> PUBLIC
+      </div>
+      <div class="msger-header-options">
+        <span><i class="fas fa-cog"></i></span>
+      </div>
+    </header>
+
+
+                                       
+    <main class="msger-chat">
+                                                  <!-- ЛЕВЫЕ-СООБЩЕНИЯ -->
+      <div class="msg left-msg">
+        <div
+         class="msg-img"
+         style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"
+        ></div>
+  
+        <div class="msg-bubble">
+          <div class="msg-info">
+            <div class="msg-info-name">BOT</div>
+            <div class="msg-info-time">12:45</div>
+          </div>
+  
+          <div class="msg-text">
+            ЭТО ОБЩИЙ ЧАТ СОС
+          </div>
+        </div>
+      </div>
+                                                    <!-- ПРАВЫЕ-СООБЩЕНИЯ -->
+      <div class="msg right-msg">
+        <div
+         class="msg-img"
+         style="background-image: url(https://image.flaticon.com/icons/svg/145/145867.svg)"
+        ></div>
+  
+
+      
+        <div class="msg-bubble">
+         
+          <div class="msg-info">
+            <div class="msg-info-name">USER</div>
+            <div class="msg-info-time">12:46(ВРЕМЯ)</div>
+          </div>
+  
+          <div class="msg-text">
+            ВАШ ТЕКСТ
+          </div>
+        </div>
+     
+      </div>
+    </main>
+  
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" placeholder="Enter your message...">
+      <button type="submit" class="msger-send-btn">Send</button>
+    </form>
+  </section>
+
+
+
+
+
+
+</div>
+
+<div class="container d-flex flex-column col-8" style="height: 100vh; padding: 0 !important;">
+
+  <header class="header-private" >PRIVATE</header>
+  <div class="body-private flex-grow-1"></div>
+  <footer class="footer-private w-100" >
+
+
+    <input type="text" class="private-input" placeholder="Enter your message...">
+    <button type="submit" class="private-send-btn">Send</button>
+  </footer>
+</div>
+
+<!-- общий -->
+<!-- Разделитель 
+  <div class="bar right1 float-start"></div>
+<div class="container3 col-3 h-100 w-100" id="testbar">
+</div>
+ -->
+
+
+
+
+
+
+
+
+<!-- пользователи -->
+<div class="arrow col-1" style="text-align: center ;align-items: center;top: 50%;left: 97.5%; position:absolute; width: 50px; height: 50px;" onclick='arrow()'></div>
+<div class="container1 col-2">
+  <div class="bar right1 float-start"></div>
+  <header class="header">
+    <h4 class="title">Поиск</h4>
+ 
+    <input type="text" name="filter" id="filter" placeholder="Search" />
+  </header>
+  <ul id="result" class="user-list">
+    <li><h3>Loading...</h3></li>
+  </ul>
+</div>
+
+
+
+ 
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+  <script  src="app2.js" ></script> 
+ 
+</body>
+</html>
+
